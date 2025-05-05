@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device_width, initial_scale=1.0" />
+    <title>My mini tech world</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my world - where code meets chaos!</h1>
+    </header>
+    <main>
+      <div class="profile">
+        <div class="container">
+          <img
+            src="Keerthu_pic.jpg"
+            alt="Not a robot... probably"
+            width="150"
+          />
+          <a
+            href="https://www.linkedin.com/in/keerthana-ramesh-5b5647265"
+            target="_blank"
+            >Click here to see me pretending to be a professional
+          </a>
+        </div>
+        <div class="About-me">
+          <h2>About Me</h2>
+          <p>
+            Hey guys, This is Keerthana... I'm quietly tackling full-stack
+            development, data analysis, and AI/ML, one line of code at a
+            time-while pretending I have everything under control. I'm all about
+            fairness, growth, and keeping things low-key, but when something
+            breaks, I just say, "It's a learning opportunity!" No drama, just
+            quietly building skills and avoiding distractions. If I'm not
+            perfect yet, don't worry, I will be… eventually!
+          </p>
+
+          <div class="Hobby">
+            <h2>My Hobbies</h2>
+            <ul>
+              <li>Learning random stuff... and forgetting it</li>
+              <li>Making "art" with paper (don't ask)</li>
+              <li>Being a movie buff while snacking like it's a sport</li>
+              <li>Cricket fanclub, but only from the couch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section class="contact-me">
+        <h2>Registration Form</h2>
+        <form action="\Contact-me" method="post">
+          <label for="username">USER NAME</label>
+          <input
+            type="name"
+            id="username"
+            name="username"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+
+          <label for="email">EMAIL ID</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email ID"
+            required
+          /><br /><br />
+
+          <label for="password">PASSWORD</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,}"
+          /><br /><br />
+
+          <label for="phonenumber">PHONE NUMBER</label>
+          <input
+            type="number"
+            id="phonenumber"
+            name="phonenumber"
+            placeholder="Enter your number"
+            required
+            maxlength="10"
+          /><br /><br />
+
+          <label for="country">COUNTRY</label>
+          <select id="country" name="country" required>
+            <option value="">---select---</option>
+            <option value="India">INDIA</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Spain">SPAIN</option></select
+          ><br /><br />
+
+          <label for="message">WHAT WOULD YOU LIKE TO DISCUSS?</label>
+          <textarea
+            id="message"
+            name="message"
+            row="3"
+            column="25"
+            required
+            placeholder="Share your thoughts here..."
+          ></textarea
+          ><br /><br />
+
+          <button type="submit">SUBMIT</button>
+          <button type="Reset">RESET</button><br /><br />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>If you enjoyed while scrolling, we're halfway to a project already</p>
+    </footer>
+  </body>
+</html>
